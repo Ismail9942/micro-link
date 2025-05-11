@@ -1,0 +1,56 @@
+[
+  {
+    "task_title": "Watch my YouTube video and leave a comment",
+    "task_detail": "Watch the full video about our new product launch and leave a genuine comment with your thoughts.",
+    "required_workers": 100,
+    "payable_amount": 10,
+    "completion_date": "2025-05-15",
+    "submission_info": "Submit a screenshot showing your comment under the video.",
+    "task_image_url": "https://example.com/images/youtube-task-banner.jpg"
+  },
+  {
+    "task_title": "Follow our Instagram page",
+    "task_detail": "Follow our official Instagram account and like the last 3 posts.",
+    "required_workers": 50,
+    "payable_amount": 5,
+    "completion_date": "2025-05-10",
+    "submission_info": "Submit your Instagram username for verification.",
+    "task_image_url": "https://example.com/images/instagram-follow-task.jpg"
+  },
+  {
+    "task_title": "Write a short review on our Facebook page",
+    "task_detail": "Write an honest review on our Facebook page about your experience with our service.",
+    "required_workers": 30,
+    "payable_amount": 15,
+    "completion_date": "2025-05-20",
+    "submission_info": "Submit a link to your review post.",
+    "task_image_url": "https://example.com/images/facebook-review-task.jpg"
+  },
+  {
+    "task_title": "Watch my YouTube video and leave a comment",
+    "task_detail": "Watch the full video about our new product launch and leave a genuine comment with your thoughts.",
+    "required_workers": 100,
+    "payable_amount": 10,
+    "completion_date": "2025-05-15",
+    "submission_info": "Submit a screenshot showing your comment under the video.",
+    "task_image_url": "https://example.com/images/youtube-task-banner.jpg"
+  },
+  {
+    "task_title": "Follow our Instagram page",
+    "task_detail": "Follow our official Instagram account and like the last 3 posts.",
+    "required_workers": 50,
+    "payable_amount": 5,
+    "completion_date": "2025-05-10",
+    "submission_info": "Submit your Instagram username for verification.",
+    "task_image_url": "https://example.com/images/instagram-follow-task.jpg"
+  },
+  {
+    "task_title": "Write a short review on our Facebook page",
+    "task_detail": "Write an honest review on our Facebook page about your experience with our service.",
+    "required_workers": 30,
+    "payable_amount": 15,
+    "completion_date": "2025-05-20",
+    "submission_info": "Submit a link to your review post.",
+    "task_image_url": "https://example.com/images/facebook-review-task.jpg"
+  }
+]
