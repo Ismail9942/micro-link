@@ -77,7 +77,10 @@ const NavBar = () => {
       </div>
       <div className="navbar-end gap-4">
         <button className="hover:text-amber-300">
-          <a href="#"> Join as Developer</a>
+          <a href="https://github.com/Ismail9942/micro-link">
+            {" "}
+            Join as Developer
+          </a>
         </button>
         <Profile />
       </div>
