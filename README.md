@@ -1,27 +1,93 @@
-# React + Vite
+> 🔐 _For testing purposes only. Do not share in production._
+> Live link: micro-earning-platform-24b8a.firebaseapp.com
+> Username: admin@gmail.com  
+> Password: Aa@123
 
-🛠 Admin Credentials:
-Username: admin@gmail.com
-Password: Aa@123
-📖 About MicroBucks:
-MicroBucks is a platform that connects users with small online tasks and allows them to earn money upon completion. The platform ensures secure transactions, transparent task tracking, and seamless interactions between task providers and workers.
+## 📖 About MicroLab
 
-🎯 Key Features:
-🔐 User Authentication: Secure login & registration with Firebase authentication.
-📝 Task Listings: Users can browse and select from a variety of available tasks.
-📤 Task Submissions: Easy task submission with real-time status updates.
-💵 Earnings Management: Users can track earnings and withdraw their balance.
-📊 Admin Dashboard: Admins can manage users, tasks, payments, and submissions.
-🔄 Real-time Updates: Instant task status updates with smooth UI interactions.
-💳 Stripe Payment System: Secure and seamless transactions using Stripe integration.
-📜 Detailed Task Instructions: Each task includes detailed instructions and requirements.
-📅 Submission History: Users can view their past submissions and earnings records.
-📱 Fully Responsive Design: Optimized for mobile, tablet, and desktop devices.
-🏗 Tech Stack:
-Frontend: React.js, Tailwind CSS, React Router, React Hook Form
-Backend: Node.js, Express.js
-Database: MongoDB
-Authentication: Firebase
-HTTP Requests: Axios
-Pagination: React Paginate
-UI Libraries: DaisyUI
+MicroLab empowers individuals to earn through micro-tasks such as reviews, surveys, or social interactions. The platform is built to ensure:
+
+- ✅ Secure Transactions
+- ✅ Transparent Task Tracking
+- ✅ Easy Interaction Between Task Providers and Workers
+
+---
+
+## 🎯 Key Features
+
+- 🔐 **User Authentication**  
+  Secure login & registration using **Firebase Authentication**.
+
+- 📝 **Task Listings**  
+  Users can browse and select from a variety of available tasks.
+
+- 📤 **Task Submissions**  
+  Submit completed tasks with real-time status updates.
+
+- 💵 **Earnings Management**  
+  Track earnings and withdraw balances easily.
+
+- 📊 **Admin Dashboard**  
+  Admins can manage users, tasks, payments, and submissions.
+
+- 🔄 **Real-time Updates**  
+  Smooth UI with instant task status feedback.
+
+- 💳 **Stripe Payment Integration**  
+  Safe and seamless transactions using **Stripe**.
+
+- 📜 **Detailed Task Instructions**  
+  Clear guidance for each task with requirements.
+
+- 📅 **Submission History**  
+  View your task history and earnings records.
+
+- 📱 **Fully Responsive Design**  
+  Optimized for all devices – mobile, tablet, and desktop.
+
+---
+
+## 🏗 Tech Stack
+
+### 🔹 Frontend
+
+- React.js
+- Tailwind CSS
+- React Router
+- React Hook Form
+- DaisyUI
+
+### 🔹 Backend
+
+- Node.js
+- Express.js
+
+### 🔹 Database
+
+- MongoDB
+
+### 🔹 Authentication
+
+- Firebase
+
+### 🔹 API Communication
+
+- Axios
+
+### 🔹 Pagination
+
+- React Paginate
+
+---
+
+## 🧪 Want to Try It?
+
+1. Clone the repository
+2. Install dependencies
+3. Setup Firebase & Stripe credentials
+4. Run both frontend and backend
+5. Use admin credentials to access dashboard
+
+---
+
+Feel free to customize this README as needed!
