@@ -7,17 +7,14 @@ const Footer = () => {
     <footer className="bg-[#128068] text-white">
       <div className="footer sm:footer-horizontal p-10">
         <nav>
-          <h6 className="footer-title ">Services</h6>
+          <Link className="footer-title ">Micro Lab</Link>
           <Link to="/">
             <img
-              className="ring w-10 h-10 rounded-full p-1"
+              className="ring w-10 h-10 mb-4 rounded-full p-1"
               src={footerLogo}
               alt=""
             />
           </Link>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
         </nav>
         <nav>
           <h6 className="footer-title">Company</h6>

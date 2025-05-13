@@ -10,26 +10,18 @@ const Dashboard = () => {
   return (
     <>
       <Toaster position="top-center" reverseOrder={false} />
-      <div className="container mx-auto md:grid grid-cols-12">
-        {/* <!-- Sidebar --> */}
-        <aside className=" col-span-2">
-          <Sidebar />
-        </aside>
-        {/* <!-- Navbar --> */}
-        <div className="col-span-10 flex flex-col gap-4 min-h-screen">
-          <header className="">
+
+      <div className="relative min-h-screen md:flex bg-white">
+        {/* Left Side: Sidebar Component */}
+        <Sidebar />
+        {/* Right Side: Dashboard Dynamic Content */}
+        <div className="flex-1  md:ml-64">
+          <div className="p-5">
+            {/* Outlet for dynamic contents */}
             <DashNavber />
-          </header>
-
-          {/* <!-- Main Content --> */}
-          <main className=" w-full my-10 flex-grow">
             <Outlet />
-          </main>
-
-          {/* <!-- Footer --> */}
-          <footer className="">
             <Footer />
-          </footer>
+          </div>
         </div>
       </div>
     </>

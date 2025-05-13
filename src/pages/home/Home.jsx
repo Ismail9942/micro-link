@@ -1,4 +1,3 @@
-import React from "react";
 import Hero from "./Hero";
 import Title from "../shareit/Title";
 import ContactSection from "./ContactSection";
@@ -12,8 +11,8 @@ const Home = () => {
       <Hero />
       <Title />
       <TaskCard />
-      <Review />
       <Categories />
+      <Review />
       <ContactSection />
     </div>
   );

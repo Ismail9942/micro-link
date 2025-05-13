@@ -1,9 +1,13 @@
 > 🔐 _For testing purposes only. Do not share in production._
-> Live link: micro-earning-platform-24b8a.firebaseapp.com
+>
 > Username: admin@gmail.com  
 > Password: Aa@123
 
 ## 📖 About MicroLab
+
+Live link:
+
+micro-earning-platform-24b8a.firebaseapp.com
 
 MicroLab empowers individuals to earn through micro-tasks such as reviews, surveys, or social interactions. The platform is built to ensure:
 
