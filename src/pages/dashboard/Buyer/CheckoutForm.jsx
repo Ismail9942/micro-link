@@ -131,7 +131,7 @@ const CheckoutForm = ({ price, coins }) => {
         type="submit"
         disabled={loading || !clientSecret}
       >
-        {loading ? "Processing..." : `Pay $${price}`}
+        {loading ? "Processing..." : `Bay Now $${price}`}
       </button>
     </form>
   );

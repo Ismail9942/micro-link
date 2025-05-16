@@ -16,7 +16,7 @@ export const imageUploaded = async (imageData, setUploading, setValue) => {
     if (res.data.success) {
       const imageUrl = res.data.data.url;
       setValue("photoURL", imageUrl);
-      return res.data.data.url;
+      return imageUrl;
     } else {
       console.error("Image upload failed:", res.data);
     }

@@ -28,6 +28,7 @@ const SignUp = () => {
   // user photo url
   const handleImageUpload = async (e) => {
     const file = e.target.files[0];
+    console.log(file);
 
     if (!file) return;
     imageUploaded(file, setUploading, setValue);
@@ -65,7 +66,12 @@ const SignUp = () => {
       toast.success("Sign up Successfully");
       navigate("/");
     } catch (err) {
-      toast.error("ohh! alrady account", err.message);
+      // toast.error(`Ohh! Account already exists${err.message}`);
+      if (err.code === "auth/email-already-in-use") {
+        toast.error("This email is already registered!");
+      } else {
+        toast.error(err.message);
+      }
     }
   };
   return (

@@ -84,7 +84,7 @@ const MyTasks = () => {
 
   return (
     <div className="w-full">
-      <div className="flex justify-around mb-10 items-center">
+      <div className="flex justify-around my-10 items-center">
         <h2 className="text-3xl font-bold">Your Added Tasks</h2>
         <h2 className="text-3xl font-bold">Total Tasks: {tasks.length}</h2>
       </div>
@@ -111,7 +111,7 @@ const MyTasks = () => {
                   <td>{index + 1}</td>
                   <td className="text-base font-bold">{task.task_title}</td>
                   <td className="overflow-hidden text-sm">
-                    {task.task_detail.slice(0, 60)}...
+                    {task.task_detail.slice(0, 30)}...
                   </td>
                   <td className="text-sm">{task.required_workers}</td>
                   <td className="text-sm">{task.task_amount}</td>
